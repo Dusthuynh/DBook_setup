@@ -25,7 +25,7 @@ const routes = [
   {
     path: "/post/:slug",
     name: "post.details",
-    component: () => import("@/views/PostView.vue"),
+    component: () => import("../views/PostView.vue"),
     beforeEnter: (to, from, next) => {
       console.log("route: post:slug");
       next();
