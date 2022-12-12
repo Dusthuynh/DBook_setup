@@ -1,3 +1,4 @@
+<!-- src="../assets/img/DBook_logo.png" -->
 <template>
   <nav
     class="navbar navbar-expand-md d-flex justify-content-between navbar-light bg-light shadow1"
@@ -6,7 +7,7 @@
       <div class="navbar-brand btn mb-0 h1" @click="goToHome">
         <img
           class="d-inline-block align-top"
-          src="../assets/img/DBook_logo.png"
+          src="https://dusthuynh.github.io/DBook/assets/DBook_Logo.86d6a142.png"
           alt="DbookLogo"
           height="40"
         />
